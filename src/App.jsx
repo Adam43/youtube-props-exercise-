@@ -21,11 +21,6 @@ function YoutubeComponent(props) {
 
 
 function App() {
-  // const listOfPokemon = [
-  //   "Pikachu",
-  //   "Dragonite",
-  //   "Gyrados"
-  // ];
   const youtubeData = [
     {
       thumbnailImage="https://via.placeholder.com/600x400" 
@@ -62,19 +57,6 @@ function App() {
         videoViews={n.videoViews}
         />
       ))}
-
-
-
-      {/* <ul>
-        <li>
-          {listOfPokemon.find(pokemon => 
-            pokemon === "Pikachu")}
-        </li>
-        {listOfPokemon.map(pokemon => (
-          <li>{pokemon}</li>
-        ))}
-      </ul>
-      <ConditionalComponent /> */}
     </div>
   )
 }
