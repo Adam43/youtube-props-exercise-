@@ -23,26 +23,25 @@ function YoutubeComponent(props) {
 function App() {
   const youtubeData = [
     {
-      thumbnailImage="https://via.placeholder.com/600x400" 
-      videoTitle="Why a cheseburger?"
-      videoUploader="Mark"
-      videoUploaded="11/30/2022"
-      views=100
+      thumbnailImage:"https://via.placeholder.com/600x400",
+      videoTitle:"Why a cheseburger?",
+      videoUploader:"Mark",
+      videoUploaded:"11/30/2022",
+      views:100
     },
     {
-      thumbnailImage="https://via.placeholder.com/600x400" 
-      videoTitle="Luis big break"
-      videoUploader="Luis"
-      videoUploaded="11/28/2022"
-      views=53
-      />
+      thumbnailImage:"https://via.placeholder.com/600x400", 
+      videoTitle:"Luis big break",
+      videoUploader:"Luis",
+      videoUploaded:"11/28/2022",
+      views:53
     },
     {
-      thumbnailImage="https://via.placeholder.com/600x400"
-      videoTitle="How to make taco?"
-      videoUploader="CookingFoods"
-      videoUploaded="11/3/2022"
-      views=27
+      thumbnailImage:"https://via.placeholder.com/600x400",
+      videoTitle:"How to make taco?",
+      videoUploader:"CookingFoods",
+      videoUploaded:"11/3/2022",
+      views:27
     }
     ];
 
@@ -54,7 +53,7 @@ function App() {
         videoTitle={n.videoTitle}
         videoUploader={n.videoUploader}
         videoUploaded={n.videoUploaded}
-        videoViews={n.videoViews}
+        views={n.views}
         />
       ))}
     </div>
